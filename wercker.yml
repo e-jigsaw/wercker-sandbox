@@ -1,0 +1,6 @@
+box: docker:1.10
+build:
+  steps:
+    - script:
+        name: version
+        code: docker --version
